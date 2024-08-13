@@ -1,0 +1,50 @@
+.header{
+display: flex; 
+position: sticky; 
+top: 0; 
+z-index: 10; 
+padding-left: 2.5rem;
+padding-right: 2.5rem; 
+justify-content: space-between; 
+align-items: center; 
+background-color:black; 
+height: 68px;
+
+}
+.header-div{
+    display: flex; 
+    gap: 1.25rem; 
+}
+.ul{
+    display:flex;
+    align-items: center;
+    list-style: none;
+}
+.ul li{ 
+    color:white;
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    font-weight: 200; 
+    cursor: pointer; 
+}
+.ul li:hover{
+    color: #9CA3AF; 
+}
+.welcome{
+    display: flex; 
+gap: 1rem; 
+align-items: center; 
+color: #ffffff; 
+
+
+}
+.data{
+    display: flex; 
+gap: 0.5rem; 
+align-items: center; 
+
+}
+a{
+text-decoration: none;
+color:white;
+}

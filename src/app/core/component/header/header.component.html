@@ -1,0 +1,24 @@
+
+<header class="header">
+    <!--header img-->
+    <div class="header-div">
+        <img src="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940" alt="head-img" width="110">
+        <ul class="ul"*ngFor="let item of navlist">
+            <li>{{item}}</li>
+        </ul>
+    </div>
+    <!-- welcome user -->
+     <div class="welcome">
+        <div class="data">
+            <a href="/">
+                <span>
+                    Welcome <strong>{{username}}</strong>
+                </span>
+            </a>
+            <img [src]="userImg" alt="user-img" width="42">
+        </div>
+        &nbsp; | &nbsp;
+        <a (click)="auth.signOut()">SignOut</a>    
+     </div>
+
+</header>

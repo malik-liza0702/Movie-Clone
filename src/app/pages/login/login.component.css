@@ -1,0 +1,38 @@
+
+.container{
+    /* background-color: rgb(104, 25, 25);   */
+    height:100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0;
+    padding: 0;
+
+
+}
+.image{
+    position: relative;
+}
+.image img{
+    height:100vh;
+    width:100vw;
+   
+}
+.holder{
+     background-color: rgb(2, 2, 2);
+     height:6rem;
+     width:25rem;
+     position:absolute;
+     color:white;
+     padding:0 10px;
+     border-radius:10px;
+     opacity:1;
+     margin-left:100px;;
+     margin-bottom:100px;
+
+
+}
+#google-btn{
+    margin-top:-7px;
+    margin-left:20px;
+}

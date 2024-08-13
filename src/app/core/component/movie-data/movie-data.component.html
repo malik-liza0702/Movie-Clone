@@ -1,0 +1,27 @@
+
+ <div class="swiper">
+      <div class="cards-wrapper">
+        <div class="cards-container">
+          <div class="card" *ngFor="let movie of videoContents">
+            <img [src]="movie.poster_path | image" alt="Card image">
+            <div class="card-body">
+              <h3 class="card-title">{{movie.original_title}}</h3>
+              <p class="card-text">{{movie.overview | description:200}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-controls">
+        <button (click)="scrollLeft()">‹</button>
+        <button (click)="scrollRight()">›</button>
+    </div>
+
+ </div>
+
+  
+
+
+
+
+
+
